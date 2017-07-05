@@ -1,0 +1,21 @@
+{
+    "name": "nolikzero/xhprof",
+    "description": "Xhprof library",
+    "type": "library",
+    "homepage": "https://github.com/nolikzero/xhprof",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nolikzero",
+            "email": "nurlanking@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "lib/callgraph_utils.php",
+            "lib/xhprof_lib.php",
+            "lib/xhprof_runs.php"
+        ]
+    }
+}
+
